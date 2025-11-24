@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뚱스밥버거 - 프리미엄 라이스 버거</title>
+    <meta name="description" content="뚱스밥버거: 최고의 밥버거 경험. 신선하고 맛있는 수제 밥버거.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo"><i class="fa-solid fa-burger"></i> 뚱스밥버거</a>
+            <ul class="nav-links">
+                <li><a href="#menu">메뉴</a></li>
+                <li><a href="#story">이야기</a></li>
+                <li><a href="#contact">문의하기</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="badge"><i class="fa-solid fa-star"></i> 신메뉴 출시</span>
+                <h1>최고의<br>밥버거 경험</h1>
+                <p>엄선된 한국 쌀과 신선한 재료로 만든 수제 밥버거.<br>한 손에 쏙 들어오는 든든한 한 끼를 즐겨보세요.</p>
+                <div class="hero-btns">
+                    <a href="#menu" class="btn btn-primary"><i class="fa-solid fa-utensils"></i> 주문하기</a>
+                    <a href="#story" class="btn btn-secondary">더 알아보기</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/hero_burger.png" alt="맛있는 뚱스밥버거">
+                <div class="circle-bg"></div>
+                <div class="floating-card card-1">
+                    <i class="fa-solid fa-fire"></i> 인기 폭발
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fa-solid fa-thumbs-up"></i> 추천
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="container features-grid">
+            <div class="feature-card">
+                <div class="icon-box">
+                    <i class="fa-solid fa-hand-holding-heart"></i>
+                </div>
+                <h3>정성 가득 수제</h3>
+                <p>매일 아침 매장에서 직접 밥을 짓고<br>정성을 다해 만듭니다.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon-box">
+                    <i class="fa-solid fa-leaf"></i>
+                </div>
+                <h3>신선한 재료</h3>
+                <p>엄격하게 선별된 신선한<br>현지 식재료만을 사용합니다.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon-box">
+                    <i class="fa-solid fa-clock"></i>
+                </div>
+                <h3>언제나 든든하게</h3>
+                <p>바쁜 일상 속에서도<br>건강하고 든든한 한 끼를 약속합니다.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-title">MENU</span>
+                <h2 class="section-title">뚱스 인기 메뉴</h2>
+                <p>가장 사랑받는 베스트 메뉴를 만나보세요</p>
+            </div>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="menu-img-wrapper">
+                        <img src="assets/menu_classic.png" alt="클래식 밥버거">
+                        <span class="tag">BEST</span>
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-header">
+                            <h3>클래식 밥버거</h3>
+                            <span class="price">₩3,500</span>
+                        </div>
+                        <p>햄, 치즈, 참치마요의 환상적인 조화. 호불호 없는 영원한 베스트셀러.</p>
+                        <button class="btn-add"><i class="fa-solid fa-plus"></i> 담기</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-img-wrapper">
+                        <img src="assets/menu_spicy.png" alt="매콤 치킨 밥버거">
+                        <span class="tag spicy">HOT</span>
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-header">
+                            <h3>매콤 치킨 밥버거</h3>
+                            <span class="price">₩4,200</span>
+                        </div>
+                        <p>직화 치킨과 특제 매운 소스의 만남. 스트레스가 풀리는 화끈한 맛.</p>
+                        <button class="btn-add"><i class="fa-solid fa-plus"></i> 담기</button>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-img-wrapper">
+                        <img src="assets/menu_special.png" alt="불고기 스페셜 밥버거">
+                        <span class="tag premium">PREMIUM</span>
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-header">
+                            <h3>불고기 스페셜</h3>
+                            <span class="price">₩5,000</span>
+                        </div>
+                        <p>프리미엄 양념 불고기와 신선한 야채의 풍성한 식감. 고급스러운 한 끼.</p>
+                        <button class="btn-add"><i class="fa-solid fa-plus"></i> 담기</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="story" class="story">
+        <div class="container story-container">
+            <div class="story-content">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <h2>브랜드 스토리</h2>
+                <p class="lead">"밥 한 끼의 힘을 믿습니다"</p>
+                <p>뚱스밥버거는 바쁜 일상 속에서도 든든하고 맛있는 한 끼를 제공하겠다는 단순한 생각에서 시작되었습니다. 우리는 좋은 음식이 하루를 살아가는 힘이 된다고 믿습니다.</p>
+                <p>최고의 쌀과 신선한 토핑만을 사용하여, 간식이 아닌 제대로 된 식사가 되는 밥버거를 만들었습니다.</p>
+                <div class="signature">뚱스밥버거 일동</div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="footer-logo"><i class="fa-solid fa-burger"></i> 뚱스밥버거</div>
+                    <p>대한민국 대표 프리미엄 라이스 버거</p>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fa-solid fa-location-dot"></i> 서울시 맛집구 밥버거로 123</p>
+                    <p><i class="fa-solid fa-phone"></i> 02-1234-5678</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Bob Burger. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
